@@ -48,8 +48,96 @@ To create a simple thirukkural generator using HTML, CSS, and JavaScript that di
 </ul>
 
 ## Code:
+```
+index.html
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Thirukkural Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+
+<h1>📜 Thirukkural Generator</h1>
+
+<div class="kural-box">
+
+<p id="kural">Click the button to generate a Thirukkural</p>
+
+<p id="meaning"></p>
+
+</div>
+
+<button onclick="generateKural()">Generate Thirukkural</button>
+
+</div>
+
+<footer>
+Created by Your Name
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+style.css
+
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(120deg,#6a11cb,#2575fc);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+margin:0;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:400px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.kural-box{
+margin:20px 0;
+padding:20px;
+background:#f2f2f2;
+border-radius:8px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+border:none;
+background:#2575fc;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1b5fd1;
+}
+
+footer{
+margin-top:20px;
+color:white;
+font-size:14px;
+}
+
+```
 ## Output:
-
+![alt text](<Screenshot (35).png>)
 ## Result:
 A simple quote generator using HTML, CSS, and JavaScript that displays a new random motivational quote each time a button is clicked — similar to daily quote sections on blogs or productivity apps is created successfully.
