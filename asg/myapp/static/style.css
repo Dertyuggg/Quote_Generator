@@ -1,0 +1,51 @@
+
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(120deg,#6a11cb,#2575fc);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+margin:0;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:400px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.kural-box{
+margin:20px 0;
+padding:20px;
+background:#f2f2f2;
+border-radius:8px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+border:none;
+background:#2575fc;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1b5fd1;
+}
+
+footer{
+margin-top:20px;
+color:white;
+font-size:14px;
+}
